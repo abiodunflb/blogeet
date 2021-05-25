@@ -11,7 +11,7 @@
 
 
           <div class="m-2 p-2">
-              <x-jet-button class="bg-blue-500 hover:bg-black-500" wire:click="showCreateModal">Create</x-jet-button>
+              <a href="{{route('post.create')}}" class="bg-blue-500 hover:bg-black-500 p-2 rounded text-white">Create</a>
           </div>
 
       </div>
